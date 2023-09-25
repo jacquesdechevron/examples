@@ -1,0 +1,20 @@
+{
+    "total_amount": "a string representing a number, with a dot as decimal separator",
+    "issue_date": "ISO 8601 date format (YYYY-MM-DD)",
+    "currency": "ISO 4217 currency code (EUR, USD, ...)",
+    "issuer_name": "a string of any length",
+    "recipient_name": "a string of any length",
+    "invoice_number": "a string of any length",
+    "issuer_siren_number": "a string 9 digits long",
+    "issuer_siret_number": "a string 14 digits long",
+    "holder_first_name": "a string of any length",
+    "holder_last_name": "a string of any length",
+    "birth_date": "ISO 8601 date format (YYYY-MM-DD)",
+    "birth_place": "a string of any length",
+    "machine_readable_zone": "a string of any length",
+    "passport_number": "a string of any length",
+    "issuer_country": "ISO 3166-1 alpha-2 country code (FR, US, ...)",
+    "expiry_date": "ISO 4217 currency code (EUR, USD, ...)",
+    "iban": "a string of max 34 characters",
+    "bic": "a string between 8 and 11 characters"
+}

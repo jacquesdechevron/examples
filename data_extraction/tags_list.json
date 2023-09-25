@@ -1,0 +1,71 @@
+{
+    "commercial_transaction": [
+        "total_amount",
+        "issue_date",
+        "currency"
+    ],
+    "invoice": [
+        "total_amount",
+        "issue_date",
+        "currency",
+        "issuer_name",
+        "recipient_name",
+        "invoice_number",
+        "issuer_siren_number",
+        "issuer_siret_number"
+    ],
+    "receipt": [
+        "total_amount",
+        "issue_date",
+        "currency"
+    ],
+    "quote": [
+        "total_amount",
+        "issue_date",
+        "currency"
+    ],
+    "proof_of_identity": [
+        "holder_first_name",
+        "holder_last_name",
+        "birth_date",
+        "birth_place",
+        "issuer_country",
+        "expiry_date"
+    ],
+    "passport": [
+        "holder_first_name",
+        "holder_last_name",
+        "birth_date",
+        "birth_place",
+        "machine_readable_zone",
+        "passport_number",
+        "issuer_country",
+        "expiry_date"
+    ],
+    "id_card": [
+        "holder_first_name",
+        "holder_last_name",
+        "birth_date",
+        "birth_place",
+        "issuer_country",
+        "expiry_date"
+    ],
+    "driver_license": [
+        "holder_first_name",
+        "holder_last_name",
+        "birth_date",
+        "birth_place",
+        "issuer_country",
+        "expiry_date"
+    ],
+    "payslip": [
+        "holder_first_name",
+        "holder_last_name"
+    ],
+    "bank_account_information": [
+        "holder_first_name",
+        "holder_last_name",
+        "iban",
+        "bic"
+    ]
+}
