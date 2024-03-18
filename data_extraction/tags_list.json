@@ -1,71 +1,236 @@
 {
     "commercial_transaction": [
         "total_amount",
+        "total_amount_ht",
+        "issuer_name",
+        "issuer_address",
         "issue_date",
-        "currency"
+        "issuer_siren_number",
+        "issuer_siret_number",
+        "currency",
+        "vat_number",
+        "finess_number",
+        "rpps_number",
+        "naf_number"
     ],
     "invoice": [
-        "total_amount",
         "issue_date",
-        "currency",
         "issuer_name",
-        "recipient_name",
-        "invoice_number",
+        "issuer_address",
         "issuer_siren_number",
-        "issuer_siret_number"
+        "issuer_siret_number",
+        "recipient_name",
+        "recipient_address",
+        "recipient_phone_number",
+        "account_number",
+        "invoice_number",
+        "total_amount",
+        "total_amount_ht",
+        "currency",
+        "vat_number",
+        "naf_number",
+        "rpps_number",
+        "finess_number"
     ],
     "receipt": [
         "total_amount",
+        "total_amount_ht",
         "issue_date",
-        "currency"
+        "currency",
+        "issuer_address",
+        "vat_number",
+        "finess_number",
+        "rpps_number",
+        "naf_number"
     ],
     "quote": [
         "total_amount",
+        "total_amount_ht",
         "issue_date",
+        "issuer_address",
+        "currency",
+        "issuer_siren_number",
+        "issuer_siret_number",
+        "vat_number",
+        "finess_number",
+        "rpps_number",
+        "naf_number"
+    ],
+    "bank_account_information": [
+        "issuer_name",
+        "issuer_adress",
+        "holder_first_name",
+        "holder_last_name",
+        "holder_address",
+        "iban",
+        "bic"
+    ],
+    "payslip": [
+        "holder_first_name",
+        "holder_last_name",
+        "holder_address",
+        "issuer_name",
+        "issuer_siren_number",
+        "issuer_siret_number",
+        "net_payable",
+        "cumulative_leave",
+        "currency",
+        "issue_date",
+        "date_of_joining_company",
+        "job_title",
+        "social_security_number"
+    ],
+    "automobile_insurance_record": [
+        "license_plate",
+        "driver_license_date",
+        "bonus_malus_factor",
+        "holder_first_name",
+        "holder_last_name",
+        "holder_address",
+        "issuer_name",
+        "issue_date",
+        "subscription_date",
+        "end_date_of_contract"
+    ],
+    "tax_notice": [
+        "fiscal_number",
+        "notice_reference_number",
+        "holder_first_name",
+        "holder_last_name",
+        "taxpayer_address",
+        "issue_date",
+        "collection_date",
+        "tax_exercice_year",
+        "taxable_income",
         "currency"
     ],
     "proof_of_identity": [
         "holder_first_name",
         "holder_last_name",
+        "holder_address",
         "birth_date",
-        "birth_place",
         "issuer_country",
-        "expiry_date"
+        "expiry_date",
+        "issue_date"
     ],
     "passport": [
         "holder_first_name",
         "holder_last_name",
+        "holder_address",
         "birth_date",
-        "birth_place",
         "machine_readable_zone",
         "passport_number",
+        "issue_date",
         "issuer_country",
         "expiry_date"
     ],
     "id_card": [
         "holder_first_name",
         "holder_last_name",
+        "holder_address",
+        "issue_date",
         "birth_date",
         "birth_place",
-        "issuer_country",
-        "expiry_date"
+        "id_card_number",
+        "machine_readable_zone"
     ],
     "driver_license": [
         "holder_first_name",
         "holder_last_name",
+        "holder_address",
         "birth_date",
         "birth_place",
         "issuer_country",
-        "expiry_date"
+        "expiry_date",
+        "driver_licence_date",
+        "driver_licence_number"
     ],
-    "payslip": [
-        "holder_first_name",
-        "holder_last_name"
-    ],
-    "bank_account_information": [
+    "vehicle_registration_document": [
+        "brand",
+        "issuer_country",
+        "issue_date",
+        "holder_address ?",
         "holder_first_name",
         "holder_last_name",
-        "iban",
-        "bic"
+        "commercial_name",
+        "j1_code",
+        "first_registration_date",
+        "machine_readable_zone",
+        "serial_number",
+        "certificate_number"
+    ],
+    "kbis_company_registration_certificate": [
+        "emission_date (dans issue_date)",
+        "holder_company_name",
+        "holder_address",
+        "issuer_name",
+        "rcs_number",
+        "legal_form"
+    ],
+    "cpam_statement": [
+        "social_security_number"
+    ],
+    "electricity_bill": [
+        "account_number",
+        "invoice_number",
+        "total_amount",
+        "currency",
+        "issue_date",
+        "issuer_name",
+        "issuer_address",
+        "issuer_siren_number",
+        "issuer_siret_number",
+        "recipient_name",
+        "recipient_address",
+        "vat_number",
+        "naf_number",
+        "holder_phone_number"
+    ],
+    "telecom_bill": [
+        "account_number",
+        "invoice_number",
+        "total_amount",
+        "currency",
+        "issue_date",
+        "issuer_name",
+        "issuer_address",
+        "issuer_siren_number",
+        "issuer_siret_number",
+        "recipient_name",
+        "recipient_address",
+        "vat_number",
+        "naf_number",
+        "holder_phone_number"
+    ],
+    "tax_report": [
+        "holder_company_siret_number",
+        "accounting_firm_name",
+        "accounting_firm_address",
+        "tax_report_year",
+        "accounting_firm_phone"
+    ],
+    "diploma": [
+        
+    ],
+    "employment_certificate": [
+        
+    ],
+    "tax_residence_certificate": [
+        
+    ],
+    "inpi_statement": [
+        
+    ],
+    "msa_statement": [
+        
+    ],
+    "urssaf_statement": [
+        
+    ],
+    "property_tax_notice": [
+        
+    ],
+    "other": [
+        
     ]
 }
